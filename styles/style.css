@@ -210,35 +210,47 @@
 /* about us section style end */
 
 
-
-.single-card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 150px 0;
+#single-box {
+    margin: 100px 0;
+}
+#single-box .card-name {
+    margin: 20px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4baa077c;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.single-box-container {
+    width: 420px;
+    margin: 0 auto;
 
 }
 
-.s-card-img img {
+.s-box-img img {
     width: 100%;
 }
-.s-card-content {
+.s-box-content {
     margin-top: 10px;
     text-align: center;
 }
 
-.s-card-content .card-name {
+.s-box-content .card-name {
     font-size: 20px;
     padding: 10px 20px;
-    background: #4baa077c;
+    background: #696969;
     display: inline-block;
     margin: 20px 0;
     border-radius: 5px;
 }
-.s-card-content h2 {
+.s-box-content h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.s-card-content .card-description {
+.s-box-content .box-description {
     font-size: 18px;
+}
+
+.s-box-content .btn {
+    margin-top: 50px;
 }
