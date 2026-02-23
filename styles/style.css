@@ -137,7 +137,7 @@
 
 #about-us {
     width: 70%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 #about-us .about-us-container {
@@ -208,3 +208,37 @@
 }
 
 /* about us section style end */
+
+
+
+.single-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+
+}
+
+.s-card-img img {
+    width: 100%;
+}
+.s-card-content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.s-card-content .card-name {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #4baa077c;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.s-card-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.s-card-content .card-description {
+    font-size: 18px;
+}
