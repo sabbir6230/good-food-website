@@ -132,3 +132,79 @@
     margin-top: 30px;
 }
 /* food-card section style end */
+
+/* about us section style start */
+
+#about-us {
+    width: 70%;
+    margin: 50px auto;
+}
+
+#about-us .about-us-container {
+    width: 100%;
+}
+
+#about-us .about-us-left-side {
+    width: 50%;
+}
+
+#about-us .about-us-left-side img {
+    width: 100%;
+}
+
+#about-us .about-us-right-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-us .about-us-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+.about-us-content .about-us-title {
+    font-size: 50px;
+}
+
+.about-us-content .about-us-description {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.about-us-content .about-follow {
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-us-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.about-us-icon i {
+    font-size: 40px;
+}
+
+.about-us-icon .fa-facebook {
+    color: #009fe9;
+    
+}
+.about-us-icon .fa-instagram {
+    color: #f15439;
+}
+
+.about-us-icon .fa-pinterest {
+    color: #f7630e;
+}
+
+/* about us section style end */
