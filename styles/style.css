@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #52C303;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* hero section style start */
+#hero {
+    background: red;
+    background: linear-gradient(
+        0deg,
+        rgb(16, 16, 16) 15.9%,
+        rgba(16, 16, 16, 0) 100%
+    ), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero .hero-container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    z-index:1;
+
+}
+
+.hero-container .sub-title {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.hero-container .hero-title {
+    color: #fff;
+    font-size: 70px;
+    padding: 20px 0;
+    opacity: 0.9;
+}
+
+.hero-container .hero-description {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+/* hero section style end */
+
+/* food-card section style strat */
+
+.food-container {
+    width: 70%;
+    margin: 50px auto;
+}
+
+#food-card .food-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#food-card .f-subtitle {
+    font-size: 18px;
+    color: #696969;
+}
+
+#food-card .f-title {
+    font-size: 50px;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+#food-card .f-card-box {
+    width: 33%;
+}
+
+.f-card-box {
+    text-align: center;
+}
+
+.f-card-box .card-img img {
+    width: 100%;
+}
+
+.card-content .f-name {
+    margin: 20px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4baa077c;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.card-content h2 {
+    font-size: 35px;
+}
+
+.card-content .card-description {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.single-card-container {
+    display: flex;
+    gap: 30px
+}
+
+.food-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+/* food-card section style end */
